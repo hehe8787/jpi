@@ -1080,25 +1080,31 @@
             s = $(".side-nav").children().length - 1,
             r = s;
         e(1), i(n, 1, s)
+    }), $(".ctaend").click(function() {
+        var t = $(".side-nav").find(".is-active"),
+            n = $(".side-nav").children().index(t),
+            s = $(".side-nav").children().length - 1,
+            r = s;
+        e(5), i(n, 5, s)
     }),
    $('.slider--item-left').click(function(){
     var curPos = 1 ;
     var nextPos = 2 ;
-    var lastItem = 5 ;
+    var lastItem = 7 ;
       e(nextPos),
       i(curPos, nextPos, lastItem);
   }),
   $('.slider--item-center').click(function(){
     var curPos = 1 ;
     var nextPos = 3 ;
-    var lastItem = 5 ;
+    var lastItem = 7 ;
       e(nextPos);
       i(curPos, nextPos, lastItem);
   }),
   $('.slider--item-right').click(function(){
     var curPos = 1 ;
     var nextPos = 4 ;
-    var lastItem = 5 ;
+    var lastItem = 7 ;
       e(nextPos);
       i(curPos, nextPos, lastItem);
   });    
