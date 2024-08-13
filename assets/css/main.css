@@ -1154,7 +1154,7 @@ body {
 
 .about--banner {
     position: relative;
-    height: 475px
+    height: 400px
 }
 
 .about--banner::before {
@@ -1244,7 +1244,7 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    max-width: 600px;
+    max-width: 800px;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
@@ -1256,8 +1256,8 @@ body {
 
 .about--options>a {
     position: relative;
-    width: 150px;
-    height: 75px;
+    width: 200px;
+    height: 185px;
     text-decoration: none;
     color: #fff;
     border: 10px solid #0f33ff;
@@ -1267,15 +1267,15 @@ body {
 }
 
 .about--options>a:nth-child(1) {
-    background-image: url("../img/about-winners.jpg")
+    background-image: url("../img/damnn.webp")
 }
 
 .about--options>a:nth-child(2) {
-    background-image: url("../img/about-philosophy.jpg")
+    background-image: url("../img/8500048.png")
 }
 
 .about--options>a:nth-child(3) {
-    background-image: url("../img/about-history.jpg")
+    background-image: url("../img/1722086\ \(1\).png")
 }
 
 .about--options>a:hover h3 {
